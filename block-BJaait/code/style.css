@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #7fb5f1;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+form {
+  width: 30%;
+  margin: 0 auto;
+  border: 2px solid white;
+  background-color: 127, 181, 241;
+  padding: 1rem;
+}
+
+form input {
+  padding: 0.5rem 0.75rem;
+  border: none;
+  outline: none;
+  color: blue;
+  font-size: 1.2rem;
+  background-color: rgba(127, 181, 241, 0.5);
+  width: 80%;
+}
+
+form input::-webkit-input-placeholder {
+  color: white;
+  background-color: rgba(127, 181, 241, 0.5);
+}
+
+form input:-ms-input-placeholder {
+  color: white;
+  background-color: rgba(127, 181, 241, 0.5);
+}
+
+form input::-ms-input-placeholder {
+  color: white;
+  background-color: rgba(127, 181, 241, 0.5);
+}
+
+form input::placeholder {
+  color: white;
+  background-color: rgba(127, 181, 241, 0.5);
+}
+
+form .btn {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: #7fb5f1;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin: 2rem 0;
+}
+
+ul {
+  width: 30%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+ul li {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: move;
+}
+
+ul li p {
+  color: #0b88ee;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+ul li span {
+  color: #0b88ee;
+  font-weight: 700;
+  font-size: 0.8rem;
+  display: none;
+}
+
+ul li:hover span {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
