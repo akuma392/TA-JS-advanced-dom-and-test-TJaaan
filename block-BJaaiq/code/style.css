@@ -1,0 +1,13 @@
+div {
+  height: 800px;
+}
+/* body {
+  height: 50vh;
+} */
+
+strong {
+  color: rgb(15, 5, 43);
+}
+p {
+  color: rgba(15, 5, 43, 0.5);
+}
