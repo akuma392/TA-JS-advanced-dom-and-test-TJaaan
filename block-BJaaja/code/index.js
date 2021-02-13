@@ -1,47 +1,17 @@
-## Using ESLint
+let num = 10;
 
-- Create a folder with a js file
-- Install and setup the `eslint`
-- Go through [https:
-- List 10 bad practices from the link above
-- Check if you get error (red underline) in VSCode.
-- Comment the bad code and fix it below that
+const increaseNumber = () => {
+  return (num += 1);
+};
+let increasePassedNumber = (number) => number++;
 
-Example:
-
-```js
-var count = 1;
-if (true) {
-  count += 1;
-}
-
-let count = 1;
-if (true) {
-  count += 1;
-}
-```
-
-#### Fix the following code given below by following the rules of Airbnb Style Guide. Use ESLint to find the error
-
-1.
-
-```js
-var num = 10;
-
-var increaseNumber = () => num++;
-var increasePassedNumber = (number) => number++;
-
-var num1 = increaseNumber();
-var num2 = increasePassedNumber(num1);
+const num1 = increaseNumber();
+const num2 = increasePassedNumber(num1);
 
 console.log(num1);
 console.log(num2);
-```
 
-2.
-
-```js
-var animalMethods = {
+const animalMethods = {
   eat: function () {
     console.log(`I live in ${this.location} and I can eat`);
   },
@@ -113,11 +83,7 @@ let catsMethods = {
   },
 };
 Object.setPrototypeOf(catsMethods, animalMethods);
-```
 
-3.
-
-```js
 const anakinSkywalker = 'Anakin Skywalker';
 const lukeSkywalker = 'Luke Skywalker';
 
@@ -129,15 +95,3 @@ const obj = {
   mayTheFourth: 4,
   anakinSkywalker,
 };
-```
-
-4.
-
-```js
-function getFullName(user) {
-  const firstName = user.firstName;
-  const lastName = user.lastName;
-
-  return `${firstName} ${lastName}`;
-}
-```
