@@ -1,0 +1,18 @@
+body {
+  position: relative;
+}
+
+.block {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  background-color: brown;
+}
+.block:hover {
+  cursor: pointer;
+}
+img {
+  width: 100%;
+}
