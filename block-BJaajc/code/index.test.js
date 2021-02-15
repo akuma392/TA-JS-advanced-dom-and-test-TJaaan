@@ -1,14 +1,14 @@
 // const getFullName = require('./getFullName');
 
-// test('Abhi and kum  will be Abhi Kum', () => {
-//   expect(getFullName('Arya', 'Stark')).toBe('Arya Stark');
-// });
+const methods = require('./index.js');
 
-const palindrome = require('./palindrome');
-
-test('12321 will be Palindrome', () => {
-  expect(palindrome(12321)).toBeTruthy();
+test('Abhi and kum  will be Abhi Kum', () => {
+  expect(methods.getFullName('Arya', 'Stark')).toBe('Arya Stark');
 });
+
+// test('12321 will be Palindrome', () => {
+//   expect(methods.palindrome(12321)).toBeTruthy();
+// });
 
 // test('123321 will be Palindrome', () => {
 //   expect(palindrome(123321)).not.toBeTruthy();

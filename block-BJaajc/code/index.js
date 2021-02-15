@@ -45,7 +45,14 @@ function palindrome(number) {
 // }
 
 // module.exports = getFullName;
-module.exports = palindrome;
+module.exports = {
+  palindrome,
+  getFullName,
+  // getArea,
+  // average,
+  // longestWord,
+  // getCircumfrence,
+};
 // module.exports = getCircumfrence;
 // module.exports = getArea;
 // module.exports = average;
